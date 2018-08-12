@@ -25,27 +25,28 @@ These have the following connections:
 
 Arduino Pin  | Function
 -------------|--------------------
-D0           | test 
-D1           | test 
-D2           | test 
-D3           | test 
-D4           | test 
-D5           | test 
-D6           | test 
-D7           | test 
-D8           | test 
-D9           | test 
-D10          | test 
-D11          | test 
-D12          | test 
-D13          | test 
-A0           | test 
-A1           | test 
-A2           | test 
-A3           | test 
-A4           | test 
-A5           | test 
-
+D0           | Rx - Serial
+D1           | Tx - Serial
+D2           | Position Sensor 1 
+D3           | Position Sensor 2
+D4           | 
+D5           | STEPA - 1
+D6           | STEPA - 2
+D7           | STEPA - 3 
+D8           | STEPA - 4 
+D9           | STEPB - 1
+D10          | STEPB - 2 
+D11          | STEPB - 3 
+D12          | STEPB - 4
+D13          | LED 
+A0           |  
+A1           | 
+A2           |  
+A3           |  
+A4           | SDA
+A5           | SCL
+A6           | 
+A7           | 
 
 
 
