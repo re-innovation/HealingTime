@@ -7,8 +7,20 @@ These motors spin 360 degrees after a set time delay (typically every 15 mins). 
 
 # Detail
 
+Each stpper motors has a power driver. They are 4 wire steppers which need to be controlled in the correct order to rotate in either direction or at a certain speed.
+
+Each stpper motor 
+
+The position sensor
+
+The time is montiored using a real time clock. This needs to be accurately set at the start of the project.
+
+
+
 
 # Motor controllers
+There are 4 otor controller boards. Each motor controller board controls a set of 2 steppers and a set of 3 steppers (so a total of 5 motors per board).
+
 These have the following connections:
 
 Arduino Pin  | Function
