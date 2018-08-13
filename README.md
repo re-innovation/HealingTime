@@ -24,9 +24,15 @@ The time is montiored using a real time clock. This needs to be accurately set a
 There are 4 motor controller boards. Each motor controller board controls a set of 2 steppers and a set of 3 steppers (so a total of 5 motors per board).
 There will be one Master controller and 3 slaves.
 The Master controller unit will have the real time clock. It will look at the time and decide what to do. It will also decide upon the ranom set of motors to run at 5 min intervals.
-The Master connectors to the slaves 
 
-These have the following connections:
+The Master connects to the slaves via a serial connection (running at 9600 baud).
+The master will send commands to run the slaves. This would be:
+"SA1RUN" - This would be Slave 1 motor set A run
+"S3BRUN" - This would be slave 3 motor set B run
+"SALLRUN" - This would tell all the slave motors to run.
+A 'run' is to rotate a set number of degrees in a set time, all the way to the position sensor to align the unit each time (in case of any inaccuracies).
+
+The motor controller boards have the following connections:
 
 Arduino Pin  | Function
 -------------|--------------------
@@ -67,8 +73,4 @@ The position sensors are NJK - 5002C type available from many suppliers, includi
 https://www.ebay.co.uk/itm/Detective-Effect-Hall-Sensor-Proximity-Switch-NPN-3-wires-Normally-Open-Magnet/152534784195?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649
 
 They need a 10k pull up resistor and the output goes low when it detects a magnetic field.
-
-
-
-
 
