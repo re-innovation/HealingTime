@@ -54,6 +54,21 @@ A6           |
 A7           | 
 
 SDA and SCL are used for the real time clock.
+The real time clock is the DS3231 I2C unit avialble from here:
+
+https://www.ebay.co.uk/itm/DS3231-RTC-Precision-Board-Real-Time-Clock-Module-for-Arduino-Raspberry-Pi/262828567746?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649
+
+Information about using the DS3231 with Arduino is available here:
+
+http://tronixstuff.com/2014/12/01/tutorial-using-ds1307-and-ds3231-real-time-clock-modules-with-arduino/
+
+The position sensors are NJK - 5002C type available from many suppliers, including:
+
+https://www.ebay.co.uk/itm/Detective-Effect-Hall-Sensor-Proximity-Switch-NPN-3-wires-Normally-Open-Magnet/152534784195?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649
+
+They need a 10k pull up resistor and the output goes low when it detects a magnetic field.
+
+
 
 
 
