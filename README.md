@@ -68,6 +68,12 @@ Information about using the DS3231 with Arduino is available here:
 
 http://tronixstuff.com/2014/12/01/tutorial-using-ds1307-and-ds3231-real-time-clock-modules-with-arduino/
 
+This project is using the DS3231 arduino library from here:
+
+DS3231_Serial_Easy
+Copyright (C)2015 Rinky-Dink Electronics, Henning Karlsen. All right reserved
+web: http://www.RinkyDinkElectronics.com/
+
 The position sensors are NJK - 5002C type available from many suppliers, including:
 
 https://www.ebay.co.uk/itm/Detective-Effect-Hall-Sensor-Proximity-Switch-NPN-3-wires-Normally-Open-Magnet/152534784195?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649
